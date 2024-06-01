@@ -1,0 +1,78 @@
+body {
+  background-color: #fadeff;
+  text-align: center;
+  font-family: verdana;
+  padding-bottom: 44px;
+}
+
+.bg-pink {
+  background: pink;
+}
+
+.codigo{
+  background-color: rgba(255, 192, 203, 0.182) !important;
+}
+
+.contenedor {
+  display: flex;
+}
+
+.table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: #fffdf6;
+  margin: 0 auto;
+}
+
+.table th {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #530c45;
+  width: 40%;
+}
+
+.table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #530c45;
+  width: 40%;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="file"],
+select {
+  background-color: #fcf4ff;
+  border-radius: 20px !important;
+  border: 1px solid #cd4662;
+  font-family: verdana;
+  width: 100% !important;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.boton {
+  background-color: #f3f2ee;
+  border: 1px solid #bd8ea5;
+  color: #bd8ea5;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 2px solid;
+  transition: all 1s ease;
+  position: relative;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.boton:hover {
+  background: #ccbab5;
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .table th,
+  .table td {
+    font-size: 12px;
+  }
+}
